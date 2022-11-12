@@ -37,6 +37,9 @@
                                         <rect key="frame" x="136" y="40" width="86.333333333333314" height="34.333333333333343"/>
                                         <state key="normal" title="Button"/>
                                         <buttonConfiguration key="configuration" style="filled" title="Ingresar"/>
+                                        <connections>
+                                            <action selector="SingInButton" destination="BYZ-38-t0r" eventType="touchUpInside" id="A3s-Hz-3Rr"/>
+                                        </connections>
                                     </button>
                                 </subviews>
                                 <color key="backgroundColor" systemColor="systemBackgroundColor"/>
@@ -92,6 +95,10 @@
                             <constraint firstItem="flB-zb-PjT" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" id="xWv-jK-3Cd"/>
                         </constraints>
                     </view>
+                    <connections>
+                        <outlet property="EmailInput" destination="TZh-tE-XFc" id="pPU-M3-TIN"/>
+                        <outlet property="PasswordInput" destination="Emp-GI-0lG" id="SjN-K3-kbm"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>

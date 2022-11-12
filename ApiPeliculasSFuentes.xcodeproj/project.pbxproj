@@ -16,6 +16,8 @@
 		F7099E79291EAFF800247A21 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F7099E77291EAFF800247A21 /* LaunchScreen.storyboard */; };
 		F7F36FE9291EDFA3009029D1 /* CreateToken.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7F36FE8291EDFA3009029D1 /* CreateToken.swift */; };
 		F7F36FEB291EE331009029D1 /* Result.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7F36FEA291EE331009029D1 /* Result.swift */; };
+		F7F36FF0291F2B24009029D1 /* Movie.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7F36FEF291F2B24009029D1 /* Movie.swift */; };
+		F7F36FF2291F2B42009029D1 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7F36FF1291F2B42009029D1 /* User.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -30,6 +32,8 @@
 		F7099E7A291EAFF800247A21 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		F7F36FE8291EDFA3009029D1 /* CreateToken.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateToken.swift; sourceTree = "<group>"; };
 		F7F36FEA291EE331009029D1 /* Result.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Result.swift; sourceTree = "<group>"; };
+		F7F36FEF291F2B24009029D1 /* Movie.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Movie.swift; sourceTree = "<group>"; };
+		F7F36FF1291F2B42009029D1 /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,13 +66,11 @@
 		F7099E68291EAFF800247A21 /* ApiPeliculasSFuentes */ = {
 			isa = PBXGroup;
 			children = (
+				F7099E69291EAFF800247A21 /* AppDelegate.swift */,
+				F7099E6B291EAFF800247A21 /* SceneDelegate.swift */,
 				F7F36FEC291F25FC009029D1 /* Model */,
 				F7F36FED291F260E009029D1 /* View */,
 				F7F36FEE291F2631009029D1 /* Controller */,
-				F7099E69291EAFF800247A21 /* AppDelegate.swift */,
-				F7099E6B291EAFF800247A21 /* SceneDelegate.swift */,
-				F7099E6D291EAFF800247A21 /* ViewController.swift */,
-				F7099E6F291EAFF800247A21 /* Main.storyboard */,
 				F7099E75291EAFF800247A21 /* Assets.xcassets */,
 				F7099E77291EAFF800247A21 /* LaunchScreen.storyboard */,
 				F7099E7A291EAFF800247A21 /* Info.plist */,
@@ -82,6 +84,8 @@
 			children = (
 				F7F36FEA291EE331009029D1 /* Result.swift */,
 				F7F36FE8291EDFA3009029D1 /* CreateToken.swift */,
+				F7F36FEF291F2B24009029D1 /* Movie.swift */,
+				F7F36FF1291F2B42009029D1 /* User.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -89,6 +93,7 @@
 		F7F36FED291F260E009029D1 /* View */ = {
 			isa = PBXGroup;
 			children = (
+				F7099E6F291EAFF800247A21 /* Main.storyboard */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -96,6 +101,7 @@
 		F7F36FEE291F2631009029D1 /* Controller */ = {
 			isa = PBXGroup;
 			children = (
+				F7099E6D291EAFF800247A21 /* ViewController.swift */,
 			);
 			name = Controller;
 			sourceTree = "<group>";
@@ -171,9 +177,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F7F36FF0291F2B24009029D1 /* Movie.swift in Sources */,
 				F7F36FEB291EE331009029D1 /* Result.swift in Sources */,
 				F7F36FE9291EDFA3009029D1 /* CreateToken.swift in Sources */,
 				F7099E6E291EAFF800247A21 /* ViewController.swift in Sources */,
+				F7F36FF2291F2B42009029D1 /* User.swift in Sources */,
 				F7099E6A291EAFF800247A21 /* AppDelegate.swift in Sources */,
 				F7099E74291EAFF800247A21 /* ApiPeliculasSFuentes.xcdatamodeld in Sources */,
 				F7099E6C291EAFF800247A21 /* SceneDelegate.swift in Sources */,

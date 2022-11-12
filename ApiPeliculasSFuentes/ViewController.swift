@@ -9,6 +9,11 @@ import UIKit
 
 class ViewController: UIViewController {
 
+
+    @IBOutlet weak var EmailInput: UITextField!
+    @IBOutlet weak var PasswordInput: UITextField!
+    
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
@@ -17,6 +22,21 @@ class ViewController: UIViewController {
 
     }
 
+    
+    @IBAction func SingInButton() {
+        let user: User
+        
+        user = User(Email: EmailInput.text!, Password: PasswordInput.text!)
+        
+        print(user)
+
+    }
+    
+    
+    func ValidateToken(){
+        
+    }
+    
     
     
     func callAPI(){
