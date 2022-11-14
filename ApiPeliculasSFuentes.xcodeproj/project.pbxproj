@@ -59,6 +59,17 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		3F55889029222C3100014713 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				3F558888292222CD00014713 /* HomeViewController.swift */,
+				F7099E6D291EAFF800247A21 /* ViewController.swift */,
+				3F55888A292223B700014713 /* MainViewController.swift */,
+				3F55888E292225E500014713 /* SideMenuViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
 		F7099E5D291EAFF800247A21 = {
 			isa = PBXGroup;
 			children = (
@@ -82,7 +93,7 @@
 				F7099E6B291EAFF800247A21 /* SceneDelegate.swift */,
 				F7F36FEC291F25FC009029D1 /* Model */,
 				F7F36FED291F260E009029D1 /* View */,
-				F7F36FEE291F2631009029D1 /* Controller */,
+				3F55889029222C3100014713 /* Controller */,
 				F7099E75291EAFF800247A21 /* Assets.xcassets */,
 				F7099E77291EAFF800247A21 /* LaunchScreen.storyboard */,
 				F7099E7A291EAFF800247A21 /* Info.plist */,
@@ -111,17 +122,6 @@
 				3F5588852922211800014713 /* SideMenuCell.xib */,
 			);
 			path = View;
-			sourceTree = "<group>";
-		};
-		F7F36FEE291F2631009029D1 /* Controller */ = {
-			isa = PBXGroup;
-			children = (
-				3F558888292222CD00014713 /* HomeViewController.swift */,
-				F7099E6D291EAFF800247A21 /* ViewController.swift */,
-				3F55888A292223B700014713 /* MainViewController.swift */,
-				3F55888E292225E500014713 /* SideMenuViewController.swift */,
-			);
-			name = Controller;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
