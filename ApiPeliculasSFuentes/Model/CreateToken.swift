@@ -11,9 +11,21 @@ struct Data: Codable{
     let tokenApi: Token
 }
 
+struct DataUser: Codable{
+    let tokenApi: UserData
+}
+
 struct Token: Codable {
     let success: Bool
     let expires_at: String
+    let request_token: String
+    
+    
+}
+
+struct UserData: Codable {
+    let usernam: String
+    let password: String
     let request_token: String
 }
 
